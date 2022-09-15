@@ -21,6 +21,10 @@ Route::get('/', function () {
 Route::get('/blog', [PostsController::class, 'index']);
 Route::get('/blog/1', [PostsController::class, 'show']);
 
+//Post
+Route::get('/blog/create', [PostsController::class, 'create']);
+Route::post('/blog', [PostsController::class, 'store']);
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
