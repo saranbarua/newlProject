@@ -42,3 +42,12 @@ Route::get('/', HomeController::class);
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+// Route::get('/', function () {
+//     //Return config values
+//     dd(config('services.mailgun.domain'));
+//     return view('welcome');
+// });
+
+// One single route
+// Route::get('blog', [PostsController::class, 'index']);
