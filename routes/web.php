@@ -17,6 +17,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// Get
+Route::get('/blog', [PostsController::class, 'index']);
+Route::get('/blog/1', [PostsController::class, 'show']);
 
 Auth::routes();
 
