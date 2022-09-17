@@ -51,3 +51,4 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 // One single route
 // Route::get('blog', [PostsController::class, 'index']);
+
