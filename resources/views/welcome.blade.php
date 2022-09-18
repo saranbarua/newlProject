@@ -56,7 +56,7 @@
 
                             <div class="ml-12">
                                 <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                   do u want ?what are u
+                   do u want ?what are u doing?
                                 </div>
                             </div>
                         </div>
